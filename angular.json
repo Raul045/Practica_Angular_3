@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "practica3"
+  "defaultProject": "practica3",
+  "cli": {
+    "analytics": "137c5942-358e-4c6e-aa21-afa19f66934c"
+  }
 }

@@ -1,0 +1,46 @@
+<h1>Formulario</h1>
+<form [formGroup]="form">
+    <p>
+      Nombre: <br/>
+      <input type="text" formControlName="Nombre">
+    </p>
+    <p>
+      Fecha: <br/>
+      <input type="date" formControlName="Fecha">
+    </p>
+    <p>
+      Email: <br/>
+      <input type="email" formControlName="email">
+    </p>
+    <p>
+      Texto largo: <br/>
+      <textarea cols="30" rows="10" formControlName="Comentarios"></textarea>
+    </p>
+    <p>
+      Categoria: <br/>
+      <select formControlName="Categoria">
+        <option value="1">Category 1</option>
+        <option value="2">Category 2</option>
+        <option value="3">Category 3</option>
+      </select>
+    </p> 
+  </form>
+  
+<!-- <h1>Pruebas: </h1>
+<div class="container">
+    <form>
+        <table>
+            <th>
+                <label>Nombre: </label><br>
+                <input type="text">
+            </th>
+            <th>
+                <label>Apellido</label><br>
+                <input type="text">
+            </th>
+            <tr>
+                <button type="submit" class="btn btn-success">Enviar</button>
+            </tr>
+        </table>
+    </form>
+</div> -->
