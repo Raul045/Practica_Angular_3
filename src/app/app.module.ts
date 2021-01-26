@@ -8,19 +8,25 @@ import { SecondComponent } from './second/second.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms'
   import { from } from 'rxjs';
+import { RutaPComponent } from './Rutas/ruta-p/ruta-p.component';
+import { RutaJsComponent } from './Rutas/ruta-js/ruta-js.component';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
     SecondComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    RutaPComponent,
+    RutaJsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
